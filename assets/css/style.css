@@ -598,7 +598,6 @@ header.scrolled{
     font-size:30px;
     cursor:pointer;
 }
-
 @media (max-width:768px){
 
 .menu-toggle{
@@ -620,3 +619,4 @@ header.scrolled{
     text-align:center;
 }
    }
+
