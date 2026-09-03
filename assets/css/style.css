@@ -620,3 +620,26 @@ header.scrolled{
 }
    }
 
+
+/* ===========================
+   Unified logo styles (SVG)
+   - Ensures consistent sizing, responsiveness
+   - Supports dark mode via CSS variable
+=========================== */
+
+:root { --logo-fill: #071a3d; }
+.dark { --logo-fill: #ffffff; }
+
+.site-logo, .foot-logo, .hero-logo {
+  display: block;
+  max-height: 56px;
+  height: auto;
+  width: auto;
+  color: var(--logo-fill);
+}
+
+@media (max-width: 600px) {
+  .site-logo { max-height: 44px; }
+  .hero-logo { max-height: 64px; }
+  .foot-logo { max-height: 40px; }
+}
