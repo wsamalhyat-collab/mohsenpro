@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- MOHSEN PRO - SVG logo created by Copilot -->
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="100" viewBox="0 0 400 100" role="img" aria-labelledby="title desc">
+  <title id="title">MOHSEN PRO</title>
+  <desc id="desc">شعار MOHSEN PRO - رمز صاروخ بسيط ونص</desc>
+  <defs>
+    <style>
+      .text { font-family: 'Cairo', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; font-weight:700; font-size:28px; fill: #071a3d; }
+      .accent { fill: #ff6b35; }
+      .muted { fill: #0b2a52; opacity:0.95; }
+    </style>
+  </defs>
+
+  <!-- Rocket symbol -->
+  <g transform="translate(24,12) scale(0.9)">
+    <!-- body -->
+    <path d="M20 6c7 0 20 6 20 18 0 8-6 20-12 26-2 2-10 8-10 8s-8-6-10-8C6 44 0 32 0 24 0 14 13 6 20 6z" class="muted"/>
+    <!-- window -->
+    <circle cx="19" cy="20" r="5" fill="#ffffff" opacity="0.95" />
+    <!-- fins -->
+    <path d="M6 44c6-2 10-2 14 0-2 4-6 8-10 8S6 48 6 44z" class="accent"/>
+    <!-- flame -->
+    <g transform="translate(14,54)">
+      <path d="M0 0 C4 6 10 6 14 0 C10 10 4 10 0 0" class="accent"/>
+    </g>
+  </g>
+
+  <!-- Text -->
+  <text x="120" y="45" class="text">MOHSEN <tspan style="fill:#ff6b35">PRO</tspan></text>
+
+  <!-- Small Arabic tagline (optional) -->
+  <text x="120" y="72" font-family="Cairo, Arial, sans-serif" font-size="12" fill="#0b2a52">حلول رقمية ذكية</text>
+</svg>
